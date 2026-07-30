@@ -1,23 +1,26 @@
 {
-    "name": "laminas/laminas-crypt",
-    "description": "Strong cryptography tools and password hashing",
+    "name": "melisplatform/laminas-crypt",
+    "description": "Melis Platform fork of laminas/laminas-crypt - adds PHP 8.4 / 8.5 support. Strong cryptography tools and password hashing",
     "license": "BSD-3-Clause",
     "keywords": [
         "laminas",
-        "crypt"
+        "crypt",
+        "melis",
+        "melisplatform"
     ],
-    "homepage": "https://laminas.dev",
+    "homepage": "https://www.melistechnology.com",
+    "replace": {
+        "laminas/laminas-crypt": "self.version"
+    },
     "support": {
         "docs": "https://docs.laminas.dev/laminas-crypt/",
-        "issues": "https://github.com/laminas/laminas-crypt/issues",
-        "source": "https://github.com/laminas/laminas-crypt",
-        "rss": "https://github.com/laminas/laminas-crypt/releases.atom",
-        "chat": "https://laminas.dev/chat",
-        "forum": "https://discourse.laminas.dev"
+        "issues": "https://github.com/melisplatform/laminas-crypt/issues",
+        "source": "https://github.com/melisplatform/laminas-crypt"
     },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
+            "composer/package-versions-deprecated": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
         },
         "platform": {

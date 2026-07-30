@@ -1,19 +1,19 @@
 {
-    "name": "laminas/laminas-crypt",
-    "description": "Strong cryptography tools and password hashing",
+    "name": "melisplatform/laminas-crypt",
+    "description": "Melis Platform fork of laminas/laminas-crypt (3.x line) — adds PHP 8.4 / 8.5 support and keeps Symmetric\\Mcrypt, which 4.x removed. Strong cryptography tools and password hashing",
     "license": "BSD-3-Clause",
-    "keywords": [
-        "laminas",
-        "crypt"
-    ],
-    "homepage": "https://laminas.dev",
+    "keywords": ["laminas", "crypt", "melis", "melisplatform"],
+    "homepage": "https://www.melistechnology.com",
     "support": {
         "docs": "https://docs.laminas.dev/laminas-crypt/",
-        "issues": "https://github.com/laminas/laminas-crypt/issues",
-        "source": "https://github.com/laminas/laminas-crypt",
+        "issues": "https://github.com/melisplatform/laminas-crypt/issues",
+        "source": "https://github.com/melisplatform/laminas-crypt",
         "rss": "https://github.com/laminas/laminas-crypt/releases.atom",
         "chat": "https://laminas.dev/chat",
         "forum": "https://discourse.laminas.dev"
+    },
+    "replace": {
+        "laminas/laminas-crypt": "self.version"
     },
     "config": {
         "sort-packages": true,
